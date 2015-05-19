@@ -1,0 +1,20 @@
+public class Counter{
+	public static void main(String[] args){
+		countSize("kofi ip hhj");
+
+	}
+
+	public static void countSize(String str){
+		int counter = 0;
+		int i;
+		for (i=0;i<str.length();i++){
+				counter++;
+		}
+
+		
+		System.out.println("size of "+str+ " is "+ i);
+		System.out.println(str.length());
+
+
+	}
+}
